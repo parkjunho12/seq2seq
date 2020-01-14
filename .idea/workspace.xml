@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1351d5a1-657b-42d5-b499-9d0a47ac7b90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/data/last.h5" beforeDir="false" afterPath="$PROJECT_DIR$/data/last.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/we.h5" beforeDir="false" afterPath="$PROJECT_DIR$/data/we.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsmc" beforeDir="false" afterPath="$PROJECT_DIR$/nsmc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsmc/ratings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nsmc/ratings.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W6Kr8nneXxeXKs8q6DhgjJzvK3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../textsum" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1351d5a1-657b-42d5-b499-9d0a47ac7b90" name="Default Changelist" comment="" />
+      <created>1578464800311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578464800311</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3432" y="359" key="#Inspections" timestamp="1578892781600">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3432" y="359" key="#Inspections/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1578892781600" />
+    <state x="3621" y="456" key="FileChooserDialogImpl" timestamp="1578887166112">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3621" y="456" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1578887166112" />
+    <state x="3341" y="346" key="SettingsEditor" timestamp="1578540337209">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3341" y="346" key="SettingsEditor/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1578540337209" />
+    <state x="3532" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1578960480790">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3532" y="525" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1578960480790" />
+  </component>
+</project>
