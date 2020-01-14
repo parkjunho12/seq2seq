@@ -64,15 +64,15 @@ def modelingData(X_train, y_train, max_words=35000):
     model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
     tb_hist = keras.callbacks.TensorBoard(log_dir='./graph', histogram_freq=0, write_graph=True,
                                           write_images=True)
-    model.fit(X_train, y_train, epochs=1000, batch_size=60, validation_split=0.2, callbacks=[tb_hist])
+    model.fit(X_train, y_train, epochs=10, batch_size=60, validation_split=0.2, callbacks=[tb_hist])
 
     print("\n 테스트 정확도: %.4f\n" % (model.evaluate(X_test, y_test)[1]))
     return model
 
 
 if __name__ == '__main__':
-    train_data = pd.read_table('./nsmc/ratings_train.txt')
-    test_data = pd.read_table('./nsmc/ratings_test.txt')
+    train_data = pd.read_table('../nsmc/ratings_train.txt')
+    test_data = pd.read_table('../nsmc/ratings_test.txt')
     jvm.init_jvm()
     train_data = reviewTokenize(train_data)
     test_data = reviewTokenize(test_data)
@@ -89,4 +89,4 @@ if __name__ == '__main__':
     print(len(y_train))
 
     model = modelingData(X_train, y_train, 35000)
-    model.save('last_review.h5')
+    tf.keras.experimental.export_saved_model(model, '../data/ex_model.h5')
